@@ -1,4 +1,4 @@
-//* NOTE OF JAVASCICPT BY REAYN123
+//* NOTE OF JAVASCICPT BY REAYNABID123
 //* USE Better comment extenstion for bettter results in vscode
 
 // var a = 0;
@@ -147,4 +147,16 @@
 //   }
 //   console.log(i); //!NOT WORk
 // }
-// cbs(); 
+// cbs(); \
+//* WHAT IS WINDOW OBJECT
+//*The window object is the topmost object of DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. Whenever a window appears on the screen to display the contents of document, the window object is created
+
+//* var add it self ot the window object and let do not add this in window object
+
+//? EXAMPLE :
+var a = 12;
+
+function myFunction() {
+  a = 10; // This will change the value of a in the global scope (window object)
+  console.log(a); // Outputs: 10
+}
