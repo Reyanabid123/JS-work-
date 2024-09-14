@@ -1,3 +1,6 @@
+//* NOTE OF JAVASCICPT BY REAYN123
+//* USE Better comment extenstion for bettter results in vscode
+
 // var a = 0;
 // var b = 0;
 // var a = (f = prompt("write a number"));
@@ -91,32 +94,57 @@
 // var storedResult = localStorage.getItem(key);
 // console.log(`RESULT (${key}): ${storedResult}`);
 // Get user input
-var a = Number(prompt("ایک نمبر لکھیں"));
-var b = Number(prompt("دوسرا نمبر لکھیں"));
+// var a = Number(prompt("ایک نمبر لکھیں"));
+// var b = Number(prompt("دوسرا نمبر لکھیں"));
 
-// Compare numbers
-var result;
-if (a === b) {
-  result = "a اور b برابر ہیں";
-} else {
-  result = "a اور b برابر نہیں ہیں";
-}
+// // Compare numbers
+// var result;
+// if (a === b) {
+//   result = "a اور b برابر ہیں";
+// } else {
+//   result = "a اور b برابر نہیں ہیں";
+// }
 
-// Get current date and time for unique key
-var now = new Date();
-var timestamp = now.toISOString(); // Generates a unique timestamp
-var key = `result_${timestamp}`;
+// // Get current date and time for unique key
+// var now = new Date();
+// var timestamp = now.toISOString(); // Generates a unique timestamp
+// var key = `result_${timestamp}`;
 
-// Store the result in localStorage with the unique key
-localStorage.setItem(key, result);
+// // Store the result in localStorage with the unique key
+// localStorage.setItem(key, result);
 
-// Retrieve and display all stored results on the page
-var resultsContainer = document.getElementById('results');
-resultsContainer.innerHTML = ''; // Clear the container
+// // Retrieve and display all stored results on the page
+// var resultsContainer = document.getElementById('results');
+// resultsContainer.innerHTML = ''; // Clear the container
 
-// Iterate over all items in localStorage
-for (var i = 0; i < localStorage.length; i++) {
-  var storedKey = localStorage.key(i); // Get key
-  var storedResult = localStorage.getItem(storedKey); // Get value
-  resultsContainer.innerHTML += `<p><strong>${storedKey}:</strong> ${storedResult}</p>`; // Display result
-}
+// // Iterate over all items in localStorage
+// /**
+//  * Iterates over the items stored in the localStorage and displays them in the resultsContainer.
+//  * @param None
+//  * @returns None
+//  */
+// for (var i = 0; i < localStorage.length; i++) {
+//   var storedKey = localStorage.key(i); // Get key
+//   var storedResult = localStorage.getItem(storedKey); // Get value
+//   resultsContainer.innerHTML += `<p><strong>${storedKey}:</strong> ${storedResult}</p>`; // Display result
+// }
+// var old hi 
+// let old hote hi 
+// you can use var anywaher in funtion 
+// function cbs(){
+//   for(var i = 1; i < 12 ; i++) {
+//   console.log(i);
+    
+//   }
+//   console.log(i);
+// }
+// cbs() 
+// you can not  use let anywaher in funtion 
+
+// function cbs() {
+//   for (let i = 1; i < 12; i++) {
+//     console.log(i);
+//   }
+//   console.log(i); //!NOT WORk
+// }
+// cbs(); 
