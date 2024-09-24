@@ -69,6 +69,7 @@ for (let i = 0; i < 5; i++) {
   console.log(i); //* 0 سے 4 تک کے نمبر کو کنسول میں دکھاتا ہے
 }
 
+
 //? WHILE LOOP
 let i = 0;
 while (i < 5) {

@@ -49,7 +49,6 @@
 // var storedResult = localStorage.getItem("result");
 // console.log(`RESULT: ${storedResult}`);
 
-
 // یوزر سے نمبر مانگیں
 // var a = Number(prompt("ایک نمبر لکھیں"));
 // var b = Number(prompt("دوسرا نمبر لکھیں"));
@@ -128,18 +127,18 @@
 //   var storedResult = localStorage.getItem(storedKey); // Get value
 //   resultsContainer.innerHTML += `<p><strong>${storedKey}:</strong> ${storedResult}</p>`; // Display result
 // }
-// var old hi 
-// let old hote hi 
-// you can use var anywaher in funtion 
+// var old hi
+// let old hote hi
+// you can use var anywaher in funtion
 // function cbs(){
 //   for(var i = 1; i < 12 ; i++) {
 //   console.log(i);
-    
+
 //   }
 //   console.log(i);
 // }
-// cbs() 
-// you can not  use let anywaher in funtion 
+// cbs()
+// you can not  use let anywaher in funtion
 
 // function cbs() {
 //   for (let i = 1; i < 12; i++) {
@@ -154,9 +153,18 @@
 //* var add it self ot the window object and let do not add this in window object
 
 //? EXAMPLE :
-var a = 12;
+// var a = 12;
 
-function myFunction() {
-  a = 10; // This will change the value of a in the global scope (window object)
-  console.log(a); // Outputs: 10
+// function myFunction() {
+//   a = 10; // This will change the value of a in the global scope (window object)
+//   console.log(a); // Outputs: 10
+// }
+
+//? exicution conquest function
+function abc() {
+  var a = 10;
+  function def() {
+    var b = 10;
+  }
 }
+// ? exicution context is a constainer where the funtion's code 
